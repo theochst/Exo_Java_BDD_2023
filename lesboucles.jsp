@@ -29,23 +29,14 @@
 <p>Ecrire le code afin de produire un carré d'étoile</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 <p>function dessinerCarre(taille) {
-  // Parcourir les lignes
   for (let i = 0; i < taille; i++) {
-    // Initialiser une chaîne vide pour la ligne actuelle
     let ligne = '';
-
-    // Parcourir les colonnes
-    for (let j = 0; j < taille; j++) {
-      // Ajouter une étoile à la ligne
+  for (let j = 0; j < taille; j++) {
       ligne += '* ';
     }
-
-    // Afficher la ligne dans la console
     console.log(ligne);
   }
 }
-
-// Utiliser la fonction pour dessiner un carré de taille 5
 dessinerCarre(5);</p>
 
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
