@@ -28,16 +28,13 @@
 <h2>Exercice 1 : Le carré d'étoiles</h2>
 <p>Ecrire le code afin de produire un carré d'étoile</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
-<p>function dessinerCarre(taille) {
-  for (let i = 0; i < taille; i++) {
-    let ligne = '';
-  for (let j = 0; j < taille; j++) {
-      ligne += '* ';
-    }
-    console.log(ligne);
-  }
-}
-dessinerCarre(5);</p>
+<p><% int row = 1; %>
+    <% while (row <= cpt) { %>
+        <% for (int i = 1; i <= cpt; i++) { %>
+            <%= "*" %>
+        <% } %><br>
+        <% row++; %>
+    <% } %></p>
 
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la gauche</p>
